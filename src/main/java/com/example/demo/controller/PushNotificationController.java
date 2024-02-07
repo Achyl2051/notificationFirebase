@@ -27,7 +27,7 @@ public class PushNotificationController {
         {
             return new ResponseEntity<>(new PushNotificationResponse(HttpStatus.OK.value(), "Notification has been sent."), HttpStatus.OK);
         }
-        return new ResponseEntity<>(new PushNotificationResponse(HttpStatus.OK.value(), "Diso be pr le token"), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(new PushNotificationResponse(HttpStatus.OK.value(), "Diso le token"), HttpStatus.NOT_FOUND);
     }
     
 }
